@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: darkgrey;
+    max-width: 48%;
+    float: right;
+    margin-top: -16px;
+}
+.author{
+    float: right;
+}
+.left-side{
+    border-right: 3px solid lightgray;
+    max-width: 48%;
+}
+nav ul li a{
+    color: rgb(0, 153, 0);
+}
+ul{
+    list-style-type: square;
+}
+.header{
+    border-bottom: 2px solid black;
+    flex-direction: row;
+    flex-grow: 1;
+}
+img{
+    background-color: rgb(255, 255, 255);
+}
